@@ -1,0 +1,378 @@
+<!doctype html>
+<html class="h-100" lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BSKWQYM1BD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BSKWQYM1BD');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="description" content="A growing collection of ready to use components for the CSS framework Bootstrap 5">
+    <link rel="apple-touch-icon" sizes="180x180" href="miafavicons/favicon-180-precomposed.png">
+    <link rel="icon" type="image/png" sizes="16x16 32x32" href="miafavicons/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="miafavicons/favicon-96.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="favicon-144.png">
+    <meta name="theme-color" content="#ffffff">
+      <!--titolo pagina-->
+    <title>Muiscando</title>
+    <link rel="stylesheet" href="css/theme.min.css">
+
+    <style>
+
+/* inter-300 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(''),
+       url('./fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''),
+       url('./fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''),
+       url('./fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+    </style>
+    <link rel="stylesheet" href="css/mio.css">
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navScroll">
+    <!--nav bar-->
+    <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+      <div class="container">
+        <!--logo-->
+        <a class="navbar-brand pe-4 fs-4" href="#home">
+          <img src="miafavicons/favicon-76.png">
+          <span class="ms-1 fw-bolder">Musicando</span>
+        </a>
+        <!--bottone a tendina-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--menu-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home" aria-label="Brings you to the frontpage">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#musicisti">
+                Musicisti
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#strutture">
+                Strutture
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#altro">
+                Informazioni utili
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="doc.html">
+                Documentazione
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+    </nav>
+
+    <main>
+      <!--home-->
+      <div class="w-100 overflow-hidden bg-gray-100" id="home">
+        <div class="container position-relative">
+        <!--inserire immagine di sfondo-->
+          <div class="col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover" data-aos="fade-left" style="background-image: url(img/sfondohome.jpg);"></div>
+            <div class="row">
+              <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
+                <h1 class="display-1 fw-bold mt-5">Musicando: <br> per portare la musica dove serve davvero.</h1>
+                <p class="lead">Sei un musicista ma non sai dove suonare? Lavori in una struttura di assistenza e vuoi portare un po' di musica nei corridoi? Musicando è la risposta! Al nostro sito sono iscritti un'ampia scelta di strutture e musicisti sparsi per tutta Italia: ti basta un click per combinare un incontro. Buon divertimento! </p>
+          <!--bottone di accesso-->
+                <a href="scelta.html" target="_blank" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5">Accedi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!--musicisti-->
+      <div class="bg-light w-100 overflow-hidden" id="musicisti">
+        <div class="container py-vh-6">
+          <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-10 col-xl-8 text-center">
+        <h2 class="display-6">I musicisti</h2>
+        <p class="lead">Ecco alcuni dei nostri musicisti, hanno tutti una cosa in comune: vedono la musica come un mezzo per avvicinare le persone.</p>
+      </div>
+      <div class="col-12 mt-4">
+        <div class="row row-cols-1 row-cols-md-2 g-5 d-flex align-items-center">
+          <!--carta uno-->
+          <div class="col-12 col-lg-6 col-xl-4 aos-init aos-animate" data-aos="fade-down">
+            <div class="card p-4 shadow mt-3 border-0">
+              <div class="card-body">
+                <div class="text-dark py-2 fs-3">
+                  <p>Carlo</p>
+                </div>
+                <blockquote class="blockquote">
+                  <p>Età: 24</p>
+                  <p>Città: Modena</p>
+                  <p>Strumento: Chitarra</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <!--carta due-->
+          <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card p-4 shadow mt-3 border-0 aos-init aos-animate" data-aos="fade-right">
+              <div class="card-body">
+                <div class="text-dark py-2 fs-3">
+                  <p>Enrico</p>
+                </div>
+                <blockquote class="blockquote">
+                  <p>Età: 27</p>
+                  <p>Città: Napoli</p>
+                  <p>Strumento: Pianoforte</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <!--carta tre-->
+          <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card p-4 shadow mt-3 border-0 aos-init aos-animate" data-aos="fade-left">
+              <div class="card-body">
+                <div class="text-dark py-2 fs-3">
+                  <p>Alessia</p>
+                </div>
+                <blockquote class="blockquote">
+                  <p>Età: 25</p>
+                  <p>Città: Roma</p>
+                  <p>Strumento: Basso</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <!--carta quattro-->
+          <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card p-4 shadow mt-3 border-0 aos-init aos-animate" data-aos="fade-right">
+              <div class="card-body">
+                <div class="text-dark py-2 fs-3">
+                  <p>Sofia</p>
+                </div>
+                <blockquote class="blockquote">
+                  <p>Età: 19</p>
+                  <p>Città: Trieste</p>
+                  <p>Strumento: Voce</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <!--carta cinque-->
+          <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card p-4 shadow mt-3 border-0 aos-init aos-animate" data-aos="fade-left">
+              <div class="card-body">
+                <div class="text-dark py-2 fs-3">
+                  <p>Francesco</p>
+                </div>
+                <blockquote class="blockquote">
+                  <p>Età: 22</p>
+                  <p>Città: Bologna</p>
+                  <p>Strumento: Pianoforte</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <!--carta sei-->
+          <div class="col-12 col-lg-6 col-xl-4">
+            <div class="card p-4 shadow mt-3 border-0 aos-init aos-animate" data-aos="fade-right">
+              <div class="card-body">
+                <div class="text-dark py-2 fs-3">
+                  <p>Marco</p>
+                </div>
+                <blockquote class="blockquote">
+                  <p>Età: 21</p>
+                  <p>Città: Lecce</p>
+                  <p>Strumento: voce</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+      
+          </div>
+        </div>
+      </div>
+
+      <!--strutture modello 2 gallery-->
+      <div class="position-relative overflow-hidden w-100 bg-light" id="strutture">
+        <div class="container-fluid">
+        <div class="row overflow-scroll">
+          <div class="col-12">
+            <div class="row vw-100 px-0 py-vh-5 d-flex align-items-center scrollx">
+              <div class="col-lg-4">
+                <h3 class="py-5 border-top border-dark aos-init aos-animate" data-aos="fade-left">Le strutture</h3>
+                <p data-aos="fade-left" data-aos-delay="200" class="lead aos-init aos-animate">Qui invece puoi trovare alcune delle strutture che hanno deciso di aprire le porte alla musica.</p>
+              </div>
+              <br>
+              <br>
+              <!--foto 1-->
+              <div class="col-md-2 aos-init aos-animate" data-aos="fade-up"> 
+                <div class="text-dark py-2 fs-3">
+                  <p data-aos-delay="200" class="lead aos-init aos-animate">Ospedale Maggiore, Bologna</p>
+                </div>
+                  <img src="img/bologna.jpg" class="img-fluid rounded shadow" alt="nice gallery image" width="844" height="1054">
+              </div>
+              <!--foto 2-->
+              <div class="col-md-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-dark py-2 fs-3">
+                  <p data-aos-delay="200" class="lead aos-init aos-animate">Policlinico Universitario A. Gemelli, Roma</p>
+                </div> 
+                <img src="img/roma.jpg" class="img-fluid rounded shadow" alt="nice gallery image" width="844" height="562">
+              </div>
+                <!--foto 3-->
+              <div class="col-md-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                <div class="text-dark py-2 fs-3">
+                  <p data-aos-delay="200" class="lead aos-init aos-animate">Ospedale Papa Giovanni XXIII, Bergamo</p>
+                </div> 
+                <img src="img/bergamo.jpg" class="img-fluid rounded shadow" alt="nice gallery image" width="844" height="1054">
+              </div>
+              <!--foto 4-->
+              <div class="col-md-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
+                <div class="text-dark py-2 fs-3">
+                  <p data-aos-delay="200" class="lead aos-init aos-animate">Azienda Ospedaliero Universitaria Careggi, Firenze</p>
+                </div>
+                <img src="img/firenze.jpg" class="img-fluid rounded shadow" alt="nice gallery image" width="844" height="562">
+              </div>
+               <!--foto 5-->
+              <div class="col-md-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="800">
+                <div class="text-dark py-2 fs-3">
+                  <p data-aos-delay="200" class="lead aos-init aos-animate">Ospedale Borgo Trento, Verona</p>
+                </div>  
+                <img src="img/verona.jpg" class="img-fluid rounded shadow" alt="nice gallery image" width="844" height="1054">
+              </div>
+            </div>
+          </div>
+         </div>
+       </div>
+      
+      </div>
+      <!--altro-->
+      <div class="py-vh-5 w-100 bg-light overflow-hidden" id="altro">
+        <div class="container">
+            <div class="row d-flex justify-content-end">
+              <div class="col-lg-8 aos-init aos-animate" data-aos="fade-down"><h2 class="display-6">Informazioni utili</h2></div>
+            </div>
+          <div class="row d-flex align-items-center">
+
+            <div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <span class="h5 fw-lighter">01.</span>
+                <h3 class="py-5 border-top border-dark">Cos'è Musicando?</h3>
+                <p>Ciao! Mi chiamo Laura e ho creato questo spazio per un progetto universitario. Lo scopo è quello di unire chi ha voglia di suonare e chi considera la musica un valido strumento terapeutico. Musicando è un punto d'incontro che rende facile e veloce connettere chi ha voglia di fare e chi possiede lo spazio per farlo. 
+                  <br>
+                  <br>
+                  <b>Attenzione:</b> al momento il sito è una versione base e non funziona. I nomi di persone e le strutture non sono realmente iscritti.
+                  </p>
+            </div>
+      
+            <div class="col-md-6 col-lg-4 py-vh-4 pb-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+              <span class="h5 fw-lighter">02.</span>
+              <h3 class="py-5 border-top border-dark">Contatti</h3>
+              <p>Mail: laurabigi01@gmail.com</p>
+           </div>
+      
+            <div class="col-md-6 col-lg-4 py-vh-6 pb-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
+              <span class="h5 fw-lighter">03.</span>
+              <h3 class="py-5 border-top border-dark">Documenti</h3>
+              <p>Per iscriversi al sito l'unico requisito obbligatorio è quello di inserire i propri dati della carta d'identità, per garantire a chi ospita i musicisti un'esperienza più sicura</p>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+    </main>
+      <!--info alla fine-->
+      <footer>
+        <div id="footer" class="container small border-top">
+        <br>
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <p class="text-secondary">laurabigi01@gmail.com</p>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-secondary ps-0" href="scelta.html">Accedi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-secondary ps-0" href="404.html">Registrati</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-secondary ps-0" href="#home">Instagram</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-secondary ps-0" href="#home">Facebook</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-secondary ps-0" href="#home">Torna su</a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="container text-center py-3 small">Made by <a href="https://templatedeck.com" class="link-fancy" target="_blank">templatedeck.com</a>
+  </div>
+      </footer>
+<!--altro-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/aos.js"></script>
+ <script>
+ AOS.init({
+   duration: 800, // values from 0 to 3000, with step 50ms
+ });
+ </script>
+
+ <script>
+  let scrollpos = window.scrollY
+  const header = document.querySelector(".navbar")
+  const header_height = header.offsetHeight
+
+  const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+  const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+
+  window.addEventListener('scroll', function() {
+    scrollpos = window.scrollY;
+
+    if (scrollpos >= header_height) { add_class_on_scroll() }
+    else { remove_class_on_scroll() }
+
+    console.log(scrollpos)
+  })
+</script>
+
+  </body>
+</html>
